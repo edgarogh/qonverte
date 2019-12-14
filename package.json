@@ -1,0 +1,38 @@
+{
+  "name": "qonverte",
+  "version": "0.0.1",
+  "description": "CLI pipe-based tool to qonverte things to stuff",
+  "keywords": [
+    "convert",
+    "converter",
+    "cli",
+    "command",
+    "line",
+    "command-line",
+    "pipe",
+    "bash",
+    "script",
+    "shell"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edgarogh/qonverte.git"
+  },
+  "license": "MIT",
+  "author": "Edgar Onghena <dev@edgarogh.fr>",
+  "files": [
+    "dist"
+  ],
+  "bin": "dist/cli/main.js",
+  "scripts": {
+    "postinstall": "node dist/cli/setupAC",
+    "prepare": "tsc"
+  },
+  "dependencies": {
+    "omelette": "^0.4.12"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.17",
+    "@types/omelette": "^0.4.0"
+  }
+}

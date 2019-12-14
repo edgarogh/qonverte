@@ -1,0 +1,10 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+        "lib": ["ESNEXT"],
+        "outDir": "dist",
+        "rootDir": "src",
+    }
+}
